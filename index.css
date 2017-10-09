@@ -1,0 +1,97 @@
+body {
+  background-color: #8a7aa3;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  margin: 8px;
+}
+
+.container {
+  padding: 30px 0px;
+}
+
+.calculator {
+  width: 100%;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  padding-bottom: 10px;
+  background-color: #EEEEEE;
+}
+
+.display {
+  width: 100%;
+  height: 110px;
+  background-color: #b2b2b2;
+  padding: 0 12px;
+  text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-left: solid 12px #b2b2b2;
+}
+
+.top-row {
+  height: 50px;
+  line-height: 50px;
+  float: right;
+}
+
+.bottom-row {
+  height: 60px;
+  line-height: 50px;
+  font-size: 1.3em;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.25);
+  float: right;
+  clear: both;
+}
+
+.calc-btn {
+  display: inline-block;
+  background-color: #DAD6E1;;
+  width: 25%;
+  line-height: 60px;
+  height: 60px;
+  border: none;
+  overflow: hidden;
+  outline:none;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.top-btn-row .calc-btn{
+  width: 18.75%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 0.85em;
+  background-color: #E0E0E0;
+}
+
+.top-btn-row button:nth-child(5) {
+  width: 25%;
+}
+
+.calc-btn:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+#equals:hover {
+  background-color: #FFCCBC;
+}
+
+.calc-btn:active {
+  background-color: #FFF;
+}
+
+footer small {
+  color: #FFF;
+  margin: 20px 5px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 336px) {
+  .calculator {
+    width: 320px;
+    margin-top: 50px;
+  }
+}

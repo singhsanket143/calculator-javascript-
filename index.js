@@ -139,6 +139,11 @@ $(function() {
       justEvaluated = true;
     }
   };
+  
+  function getTanFromDegrees(degrees) {
+    return Math.tan(degrees * Math.PI/180);
+  }
+
 
   var clearEntry = function() {
     // delete last character entered
